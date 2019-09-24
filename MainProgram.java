@@ -27,7 +27,7 @@ public class MainProgram
     
     static void ReplaceListWithList(List<String> list1, List<String> list2)
     {
-		list1.clear();
+	list1.clear();
     	for (int i4 = 0; i4 < list2.size(); i4++) {
 			list1.add(list2.get(i4));
 		}
