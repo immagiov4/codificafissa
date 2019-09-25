@@ -42,7 +42,7 @@ public class MainProgram
 		int lunghezzaSignificante = 1;
 		
 		do {
-            print("Aggiungi un significato nell'ordine di assegnazione (digitare @E per uscire):\n ");
+            print("\nAggiungi un significato nell'ordine di assegnazione (digitare @E per uscire):\n ");
             stringInput = keyboard.nextLine();
             if (stringInput.contains("@E")) getInput = false;
             else significati.add(stringInput);
