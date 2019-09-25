@@ -17,7 +17,7 @@ public class MainProgram
 	public static void main(String[] args) {
 		
 		CreateDictionaries();
-		ConvertText();
+		//ConvertText();
 	}
 
 	
@@ -95,7 +95,7 @@ public class MainProgram
 		System.out.println(dizionarioInCodice);
     }
 
-    static void ConvertText()
+/*    static void ConvertText()
     {
     	System.out.println("Inserisci il testo da convertire: ");
     	
@@ -107,4 +107,4 @@ public class MainProgram
     	
     	System.out.println(stringInput);
     }
-}
+}*/
